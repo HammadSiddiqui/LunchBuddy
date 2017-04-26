@@ -6,41 +6,15 @@
 	- Button
 	- Navbar
 	- Slider
-	- Offers
-	- Portfolio
-	- Words
 	- Rating
-	- Product
-	- Checkout
-	- Product Details
-	- Shopping Cart
-	- Blog
-	- Blog single
-	- Parallax
-	- Forum
 	- About us
-	- Service
-	- Team
-	- Pricing
 	- Rating
-	- Timeline
 	- Chat app
-	- Gallery
-	- Calendar
-	- Coming soon
 	- Maintenance
-	- Client
-	- Carousel
- 	- Accordion
- 	- Collapsible
- 	- Tabs
- 	- Step
- 	- Process
- 	- Table
+	- Table
 	- Login
 	- Register
 	- 404 pages
-	- Footer
 	
 ===================*/
 
@@ -471,185 +445,6 @@ p {
 	color: transparent;
 }
 
-/*===================
-	offers
-===================*/
-.offers {
-	text-align: center;
-}
-
-.offers i {
-	background: #4051b5;
-	color: #fff;
-	width: 60px;
-	height: 60px;
-	text-align: center;
-	padding: 26px 0;
-	line-height: 11px;
-	border-radius: 10px;
-	font-size: 24px;
-	margin: 0 auto;
-	margin-bottom: 17px;
-	box-shadow: 0 2px 2px 0 transparent,0 1px 5px 0 rgba(0,0,0,.24),0 3px 1px -2px transparent;
-}
-
-/*===================
-	features
-===================*/
-.features .entry .icon {
-	float: left;
-	width: 60px;
-	height: 60px;
-	background: #4051b5;
-	color: #fff;
-	box-shadow: 0 2px 2px 0 transparent,0 1px 5px 0 rgba(0,0,0,.24),0 3px 1px -2px transparent;
-	border-radius: 50%;
-	text-align: center;
-	margin-right: 20px;
-	font-size: 38px;
-	line-height: 58px;
-}
-
-.features .entry .content {
-	overflow: hidden;
-	margin-bottom: -10px;
-}
-
-.features .entry ul {
-	padding: 0;
-	margin: 0;
-}
-
-.features .entry ul li {
-	display: inline-block;
-}
-
-.features .entry ul li i {
-	margin-right: 10px;
-	font-size: 22px;
-	color: #ff8f00;
-}
-
-.features .entry ul li h5 {
-	color: #373737;
-}
-
-.features .row:last-child {
-	margin-bottom: 0;
-}
-
-/*===================
-	note
-===================*/
-.note {
-	background: #e91e63;
-}
-
-.note h4 {
-	color: #fff;
-	font-size: 22px;
-}
-
-.note .button {
-	background: #4051b5;
-	position: relative;
-	top: -3px;
-}
-
-.note ul {
-	padding: 0;
-	margin: 0;
-}
-
-.note ul li {
-	display: inline-block;
-}
-
-.note ul .call {
-	float: right;
-}
-
-/*===================
-	portfolio
-===================*/
-.portfolio ul {
-	padding: 0;
-	margin: 0 0 18px 0;
-	cursor: default;
-	text-align: center;
-}
-
-.portfolio ul li {
-	background: #e91e63;
-	display: inline-block;
-	margin: 0 4px;
-	cursor: pointer;
-	color: #fff;
-	padding: 5px 10px 3px 10px;
-	border-radius: 3px;
-	box-shadow: 0 2px 2px 0 transparent,0 1px 5px 0 rgba(0,0,0,.24),0 3px 1px -2px transparent;
-}
-
-.portfolio ul .active {
-	background: #4051b5;
-	color: #fff;
-}
-
-.portfolio .row {
-	margin: 0;
-	padding: 0;
-}
-
-.portfolio .row .col {
-	padding: 3px;
-	margin: 0;
-}
-
-.portfolio img {
-	width: 100%;
-	height: 100%;
-	float: left;
-	display: block;
-}
-
-
-/*===================
-	words
-===================*/
-.words {
-	background: url(../img/overlay.jpg) center no-repeat;
-	background-size: 100% 100%;
-	color: #eee;
-	height: 100%;
-	width: 100%;
-	vertical-align: top;
-	position: relative;
-}
-
-.words * {
-	position: relative;
-}
-
-.words:before {
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: block;
-	z-index: 0;
-	background: rgba(64, 81, 181, 0.92);
-}
-
-.words h4 {
-	color: #fff;
-	font-weight: 500;
-}
-
-.words .button {
-	margin-top: 8px;
-}
 
 
 /*===================
@@ -877,20 +672,20 @@ p {
 }
 
 /*===================
-	service
+	home
 ===================*/
-.service-app .entry {
+.home-app .entry {
 	text-align: center;
 }
 
-.service-app .entry i {
-	font-size: 40px;
-	margin-bottom: 8px;
+.home-app .entry i {
+	font-size: 60px;
+	margin-bottom: 16px;
 }
 
 .features-app .entry i {
-	font-size: 35px;
-	margin-bottom: 12px;
+	font-size: 45px;
+	margin-bottom: 24px;
 
 }
 
@@ -1523,17 +1318,7 @@ border-bottom: 2px solid #4051b5;
 	margin-bottom: 12px;
 }
 
-.login .facebook {
-	background: #3b5998;
-}
 
-.login .twitter {
-	background: #00aced;
-}
-
-.login .google {
-	background: #dd4b39;
-}
 
 /*===================
 	register
@@ -1603,152 +1388,5 @@ border-bottom: 2px solid #4051b5;
 
 .page-404 .button a {
 	color: #fff;
-}
-
-/*===================
-	testimonial
-===================*/
-.testimonial {
-	text-align: center;
-	padding: 30px 0 15px 0;
-}
-
-.testimonial .app-title i {
-	font-size: 26px;
-	color: #4051b5;
-}
-
-.testimonial h6 {
-	font-weight: 700;
-}
-
-.testimonial .app-title {
-	margin-bottom: 10px;
-}
-
-.testimonial img {
-	border-radius: 50%;
-    margin: 5px 0 5px 0;
-    height: 60px;
-    width: 60px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0),0 1px 5px 0 rgba(0, 0, 0, 0.24),0 3px 1px -2px rgba(0, 0, 0, 0);
-}
-
-.testimonial .owl-theme .owl-controls .owl-page span {
-	width: 10px;
-	height: 10px;
-}
-
-/*===================
-	faq
-===================*/
-.faq .collapsible {
-	border: none;
-	box-shadow: none;
-}
-
-.faq .collapsible li {
-	margin-bottom: 6px;
-	border: 1px solid #ddd;
-	border-bottom-color: transparent;
-}
-
-.faq .collapsible li .collapsible-header {
-	font-size: 16px;
-	color: #666;
-}
-
-.faq .collapsible li .collapsible-header i {
-	float: right;
-	margin-right: 0;
-	width: auto;
-	font-size: 14px;
-}
-
-.faq .collapsible li .collapsible-body p {
-	padding: 16px;
-}
-
-/*===================
-	footer
-===================*/
-footer {
-	background: #232323;
-	text-align: center;
-	padding: 30px 0 0;
-}
-
-footer h6 {
-	color: #fff;
-	font-size: 18px;
-}
-
-footer .icon-social {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	margin-top: 20px;
-	margin-bottom: 15px;
-}
-
-footer .icon-social li {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	line-height: 30px;
-	margin: 0 3px;
-	border-radius: 100%;
-}
-
-footer .icon-social .facebook {
-	background: #3b5998;
-}
-
-footer .icon-social .twitter {
-	background: #00aced;
-}
-
-footer .icon-social .google {
-	background: #dd4b39;
-}
-
-footer .icon-social .instagram {
-	background: #517fa6;
-}
-
-footer .icon-social .rss {
-	background: #fe7e00;
-
-}
-
-footer ul li a {
-	color: #fff;
-}
-
-footer .tel-fax-mail ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	color: #fff;
-}
-
-footer .tel-fax-mail ul li {
-	padding: 4px 0;
-}
-
-footer .tel-fax-mail ul li span {
-	font-weight: bold;
-	padding: 0;
-	margin: 0;
-}
-
-footer .ft-bottom {
-	background: #232323;
-	margin-top: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: #fff;
-	border-top: 1px solid #232323;
 }
 

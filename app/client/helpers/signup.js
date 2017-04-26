@@ -7,6 +7,10 @@ Template.signup.events({
         let lastName = event.target.lastName.value;
         let email = event.target.email.value;
         let password = event.target.password.value;
+
+        if (!email.contains('habib.edu.pk')) {
+            FlashMessages.sendError("Only Habib email is allowes");
+        }
         
         let user = {
           email: email,

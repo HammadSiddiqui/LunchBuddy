@@ -4,6 +4,7 @@ Template.login.events({
        event.preventDefault();
        let email = event.target.email.value;
        let pass = event.target.password.value;
+    
        Meteor.loginWithPassword(email, pass, function (error) {
            if(error) {
                FlashMessages.sendError(error.message);
