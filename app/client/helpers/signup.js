@@ -22,7 +22,7 @@ Template.signup.events({
             if(!err){
                 Meteor.loginWithPassword(email, password, function (err) {
                     if(!err){
-                        Router.go('/home');
+                        Router.go('/');
                     }
                     else {
                         FlashMessages.sendError(err.message);

@@ -1,9 +1,14 @@
 Router.route('/', function(){
+    if(Meteor.userId()) {
+        this.render('home');
+    }
+    else {
+        Router.go('/login');
+    }
     
-    this.render('home');
 });
 
 Router.route('/login', function(){
-    
     this.render('login');
 });
+Router.route('signup');
