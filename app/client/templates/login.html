@@ -1,0 +1,32 @@
+<template name="login">
+  
+	
+	<!-- login-->
+	<div class="login app-pages app-section">
+		<div class="container">
+			<div class="pages-title">
+				<h3>Login</h3>
+                {{> flashMessages}}
+			</div>
+			<form action="#" id="js-login-form">
+				<div class="input-field">
+					<input id="email" type="email" class="validate">
+					<label for="email">Email</label>
+				</div>
+				<div class="input-field">
+					<input id="password" type="password" class="validate">
+					<label for="password">Password</label>
+				</div>
+				<div><a href="#" class="forgot">Forgot Password?</a></div>
+				<div class="chebox">
+					<input type="checkbox" id="checkbox" />
+  					<label for="checkbox">Remember me</label>
+				</div>
+				<button class="button">Login</button>
+				<div class="create-account">Not Registered? <a href="#">Create an account</a></div>
+			</form>
+		</div>
+	</div>
+	<!-- end login -->
+	
+</template>
