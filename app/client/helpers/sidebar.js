@@ -27,7 +27,7 @@ Template.sidebar.onRendered(
 });
 
 Template.sidebar.events({
-	'click .js-logout' : function(e) {
+	'click .js-logout' : function (e) {
 		console.log("LOGOUT CALLED");
 		e.preventDefault();
 		Meteor.logout(function(err) {
@@ -36,5 +36,12 @@ Template.sidebar.events({
 				Router.go('/login');
 			}
 		});
+	}
+});
+
+Template.sidebar.helpers({
+	profileName : function () {
+		userId = Meteor.users.findOne({_id : Meteor.userId()});
+		return userId.profile.firstName + ' ' + userId.profile.lastName;
 	}
 });

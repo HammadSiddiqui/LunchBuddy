@@ -8,10 +8,10 @@ Template.signup.events({
         let email = event.target.email.value;
         let password = event.target.password.value;
 
-        if (!email.contains('habib.edu.pk')) {
+      /*  if (!email.contains('habib.edu.pk')) {
             FlashMessages.sendError("Only Habib email is allowes");
         }
-        
+    */
         let user = {
           email: email,
             password: password,
@@ -26,6 +26,7 @@ Template.signup.events({
             if(!err){
                 Meteor.loginWithPassword(email, password, function (err) {
                     if(!err){
+                        Session.set('userId', Meteor.userId());
                         Router.go('/');
                     }
                     else {
