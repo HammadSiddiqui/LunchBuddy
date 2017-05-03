@@ -18,3 +18,5 @@ Router.route('/login', function(){
     this.render('login');
 });
 Router.route('signup');
+Router.route('settings');
+Router.route('profile');

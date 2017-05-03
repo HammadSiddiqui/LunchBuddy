@@ -1,6 +1,6 @@
 Template.signup.events({
     'submit #js-signup-form' : function (event) {
-
+        
         event.preventDefault();
        
         let firstName = event.target.firstName.value;
@@ -11,7 +11,7 @@ Template.signup.events({
       /*  if (!email.contains('habib.edu.pk')) {
             FlashMessages.sendError("Only Habib email is allowes");
         }
-    */
+      */
         let user = {
           email: email,
             password: password,
