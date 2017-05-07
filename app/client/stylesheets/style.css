@@ -10,6 +10,7 @@
 	- About us
 	- Rating
 	- Chat app
+	- Schedule
 	- Maintenance
 	- Table
 	- Login
@@ -674,11 +675,12 @@ p {
 /*===================
 	home
 ===================*/
-.home-app .entry {
+.home-app .entry, .sports-app .entry {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
-.home-app .entry i {
+.home-app .entry i, .sports-app .entry i {
 	font-size: 60px;
 	margin-bottom: 16px;
 }
@@ -688,6 +690,24 @@ p {
 	margin-bottom: 24px;
 
 }
+
+.sports-app .entry img, .home-app .entry img {
+	width : 80px;
+	margin-bottom: 20px;
+}
+
+
+/*===================
+	schedule
+===================*/
+.schedule-app .entry, .sports-app .entry {
+	text-align: center;
+}
+
+
+
+
+
 
 /*===================
 	team

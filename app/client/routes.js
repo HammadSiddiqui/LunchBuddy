@@ -20,3 +20,5 @@ Router.route('/login', function(){
 Router.route('signup');
 Router.route('settings');
 Router.route('profile');
+Router.route('sports');
+Router.route('schedule');
