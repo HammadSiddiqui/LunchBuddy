@@ -3,7 +3,7 @@ Template.sports.events({
         e.preventDefault();
         //console.log(e.currentTarget.innerText); //Outputs Basketball, Swim, Gym, etc.
         let activitySelectedByUser = e.currentTarget.innerText //Save the option that user clicked from home page
-        Session.set('activitySelectedByUser', activitySelectedByUser);
+        Session.set('activitySelectedByUser', activitySelectedByUser.trim());
         Router.go('/schedule');
     }
 });

@@ -1,1 +1,1 @@
-const Activity = new Mongo.Collection("activity");
+Activity = new Mongo.Collection("activity");

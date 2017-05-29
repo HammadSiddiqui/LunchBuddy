@@ -1,0 +1,14 @@
+<template name="activities">
+    <ul class="collection">
+    {{#each activities}}
+    <li class="collection-item avatar">
+      <img src="images/yuna.jpg" alt="" class="circle">
+      <span class="title">{{username user}}</span>
+      <p>{{activity}} <br>
+         {{date}} {{time}}
+      </p>
+      <a href="#!" class="secondary-content">RSVP</a>
+    </li>
+    {{/each}}
+  </ul>
+</template>

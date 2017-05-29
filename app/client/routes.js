@@ -22,3 +22,4 @@ Router.route('settings');
 Router.route('profile');
 Router.route('sports');
 Router.route('schedule');
+Router.route('activities');

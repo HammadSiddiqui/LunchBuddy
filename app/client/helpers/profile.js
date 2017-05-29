@@ -1,6 +1,8 @@
 Template.profile.helpers({
     userName : function() {
         let user = Meteor.users.findOne({_id : Meteor.userId()});
-        return user.profile.firstName + ' ' + user.profile.lastName;
+        if (user) {
+            return user.profile.firstName + ' ' + user.profile.lastName;
+        }
     }
 })
